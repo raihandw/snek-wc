@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">  
+    <link rel="stylesheet" href="./style.css">
+    <title>Snek World Championship</title>
+</head>
+<body>
+    <div id="navbar">
+        <a id="navbar-title" href=".">Snek World Championship 2021</a>
+    </div>
+    <div id="main">
+        <section>
+            <div id="navigation-container">
+                <button onclick="document.getElementById('sneks-section').scrollIntoView();" class="navigation-button">Contestants</a>
+                <button onclick="document.getElementById('leaderboard-section').scrollIntoView();" class="navigation-button">Leaderboard</a>
+                <button onclick="document.getElementById('contact-section').scrollIntoView();" class="navigation-button">Contact</a>
+            </div>
+        </section>
+        <section id="sneks-section">
+            <div class="main-title">
+                <h2 class="main-title-text">Meet Our Contestants</h2>
+            </div>
+            <div class="container">
+                <div class="snek-container">
+                    <img class="snek-image" src="./images/nguyen.jpg" alt='Lu Tran "The Viper" Nguyen' title="Get that thing out of my face!!!">
+                    <div class="info-wrapper">
+                        <img
+                          class="info-bg"
+                          src="./images/vietnam.png"
+                          alt="Vietnamese Flag"
+                        >
+                        <div class="snek-info">
+                            <h3>Lu Tran "The Venom" Nguyen</h3>
+                            <h4>King Cobra (<i>Ophiophagus hannah</i>)</h4>
+                            <h4>Vietnam</h4>
+                            <p>The legendary Lu Tran "The Venom" Nguyen was known for his deadly venom. The former reigning champion is said to have a count kill of 1097 humans! The fact that no one decided that this snake might be a bit too dangerous to be kept alive only proofs how dangerous (and profitable) he is. This year he's back and is determined to retake the crown from Silva "Gigante" Mendes.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="snek-container snek-container-right">
+                    <div class="info-wrapper info-wrapper-left">
+                        <img
+                        class="info-bg"
+                        src="./images/ethiopia.png"
+                        alt="Ethiopian Flag"
+                        >
+                        <div class="snek-info snek-info-left">
+                            <h3>Neela "Queen Bolt" Behati</h3>
+                            <h4>Black Mamba (<i>Dendroaspis polylepis</i>)</h4>
+                            <h4>Ethiopia</h4>
+                            <p>The newcomer from the heartlands of Africa, Neela "Queen Bolt" Behati is the fastest snake in Africa, and perhaps, the world! She is so fast that we don't know where she is right now. If you see her, please kindly and calmly leave the perimeter, she is deadly! Fear not however, because she is determined to beat all the legends in the stage, assuming if we found her that is.</p>
+                        </div>      
+                    </div>              
+                    <img class="snek-image" src="./images/neela.jpg" alt='Neela "Queen Bolt" Behati' title="Uh oh, you wanna have some fun sweethart?">
+                </div>
+                <div id="snek-container-end" class="snek-container">
+                    <img class="snek-image" src="./images/silva.jpg" alt='Silva "Gigante" Mendes' title="You want to get your head smashed estúpido?">
+                    <div class="info-wrapper">
+                        <img
+                        class="info-bg"
+                        src="./images/brazil.png"
+                        alt="Brazillian Flag"
+                        >
+                        <div class="snek-info">
+                            <h3>Silva "Gigante" Mendes</h3>
+                            <h4>Green Anaconda (<i>Eunectes murinus</i>)</h4>
+                            <h4>Brazil</h4>
+                            <p>Hailing from the not-so-huge-due-to-deforestation amazonian jungle, the reigning champion is here to defend its title. What he lacks in anything that involves speed, he excels in his raw strength and verosity. Last year, it was rumored that he slapped an african rhino so hard that their entire species becomes endangered. How did he ended up slapping rhinos in africa? Who knows! All we know is he's ready to slap some more!</p>
+                        </div>
+                    </div>
+                </div>
+                <div style="display: flex; margin-top: 10px;">
+                    <p style="margin-left: auto;">Note : don't hover over their photos!</p>
+                </div>
+            </div>
+        </section>
+        <section id="leaderboard-section" class="lower-section">
+            <div class="main-title main-title-right">
+                <h2 class="main-title-text">Leaderboard</h2>
+            </div>
+            <div class="container container-right">
+                <table>
+                    <tr>
+                        <th rowspan="2">Ranking</th>
+                        <th rowspan="2">Contestant Name</th>
+                        <th colspan="5">Courses</th>
+                        <th rowspan="2">Total</th>
+                    </tr>
+                    <tr>
+                        <th>Jungle Obstacle</th>
+                        <th>Tree Hugger</th>
+                        <th>Munch The Goat!</th>
+                        <th>Spit Me Senpai</th>
+                        <th>Trivia Time!</th>
+                    </tr>
+                    <tr id="first-place">
+                        <td>1</td>
+                        <td>Neela Behati</td>
+                        <td>19</td>
+                        <td>16</td>
+                        <td>14</td>
+                        <td>17</td>
+                        <td>20</td>
+                        <td>86</td>
+                    </tr>
+                    <tr id="second-place">
+                        <td>2</td>
+                        <td>Lu Tran Nguyen</td>
+                        <td>15</td>
+                        <td>13</td>
+                        <td>19</td>
+                        <td>20</td>
+                        <td>18</td>
+                        <td>85</td>
+                    </tr>
+                    <tr id="third-place">
+                        <td>3</td>
+                        <td>Silva Mendes</td>
+                        <td>12</td>
+                        <td>20</td>
+                        <td>20</td>
+                        <td>1</td>
+                        <td>10</td>
+                        <td>63</td>
+                    </tr>
+                </table>
+                <div style="display: flex; margin-top: 10px;">
+                    <p style="margin-left: auto;">Note : click on a winner row to make you feel like a champion!</p>
+                </div>
+            </div>
+        </section>
+        <section class="lower-section">
+            <div id="contact-section" class="main-title">
+                <h2 class="main-title-text">Contact The Foundation</h2>
+            </div>
+            <div class="container">
+                <form name="contact-form" action="">
+                    <div style="display: flex;">
+                        <label style="width: 50%; margin-right: 10px;" for="email">E-Mail</label>
+                        <label style="width: 50%; margin-left: 10px;" for="topic">Topic</label>
+                    </div>
+                    <div style="display: flex; margin-top: 5px; margin-bottom: 10px;">
+                        <input style="width: 50%; margin-right: 10px;" type="email" id="email" name="email" placeholder="Enter your e-mail" required>
+                        <select style="width: 50%; margin-left: 10px;" name="topic" id="topic">
+                            <option value="">--- Select a Topic ---</option>
+                            <option value="1">Sneks in General</option>
+                            <option value="2">About the Foundation</option>
+                            <option value="3">Our Contestants</option>
+                            <option value="4">The Courses</option>
+                            <option value="5">Is this legal?</option>
+                        </select>
+                    </div>
+                    <label for="desc">Description</label>
+                    <textarea id="desc" style="resize: none; margin-top: 5px; margin-bottom: 5px; width: 100%;" name="desc" rows="5" placeholder="Ask us something!" required></textarea>
+                    <div style="display: flex; align-items: center;">
+                        <p id="hidden-text" style="color: red;" hidden>I lied. This form doesn't send anything. This prank is brought to you by DOM.</p>
+                        <button id="submit-button" style="margin-left: auto;">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </div>
+    <div id="footer">
+        <h4 id="footer-text">&copy; 2021 The Snek WC Foundation (a.k.a. Raihan Dewana)</h4>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
